@@ -35,7 +35,7 @@ public class Factorial {
             result += Math.pow(remainder, n);
             originalNum = originalNum / 10;
         }
-        
+
         // Check if number is equal to the sum of its digits raised to the nth power
         if (result == num)
             return true;

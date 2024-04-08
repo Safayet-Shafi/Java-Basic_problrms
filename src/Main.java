@@ -8,10 +8,22 @@ public class Main {
         FibonacchiAndPrime obj2= new FibonacchiAndPrime();
 //        obj2.printFiboNacchi(10);
 //        System.out.println(obj2.checkPrime(62));
-//        Factorial
+//       Factorial
         Factorial obj3= new Factorial();
 //        System.out.println(obj3.findFact(4));
 //        System.out.println(obj3.factorialRecursion(5));
-        System.out.println(obj3.findArmstrong(153));
+//        System.out.println(obj3.findArmstrong(153));
+
+        //ArraycopyAndFindElement
+        ArrayCopyFindElement obj4 =new ArrayCopyFindElement();
+//        int[] result =obj4.copyArray();
+//        for (int num : result) {
+//            System.out.print(num + " ");
+//        }
+        int[] result1 =obj4.copyArray2(new int []{8,5,4,7,9});
+        for (int num : result1 ) {
+            System.out.print(num + " ");
+
+          }
     }
 }

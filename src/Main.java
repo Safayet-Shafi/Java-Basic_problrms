@@ -15,15 +15,20 @@ public class Main {
 //        System.out.println(obj3.findArmstrong(153));
 
         //ArraycopyAndFindElement
-        ArrayCopyFindElement obj4 =new ArrayCopyFindElement();
+        ArrayCopyFindFrequency obj4 =new ArrayCopyFindFrequency();
 //        int[] result =obj4.copyArray();
 //        for (int num : result) {
 //            System.out.print(num + " ");
 //        }
-        int[] result1 =obj4.copyArray2(new int []{8,5,4,7,9});
-        for (int num : result1 ) {
-            System.out.print(num + " ");
-
-          }
+//        int[] result1 =obj4.copyArray2(new int []{8,5,4,7,9});
+//        for (int num : result1 ) {
+//            System.out.print(num + " ");
+//
+//          }
+//        obj4.findFrequency();
+        ArrayDuplicateFind obj5 =new ArrayDuplicateFind();
+        obj5.findDuplicateElement1();
     }
+
+
 }
